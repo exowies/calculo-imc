@@ -31,5 +31,14 @@ public class Main
 		imc = p1.peso/(p1.altura*p1.altura);
 		
 		System.out.println("Seu imc é: "+imc);
+
+		if (imc <=19)
+			System.out.println("Abaixo do peso");
+
+				else if (imc <=25)
+				System.out.println("Peso normal");
+
+					else
+				System.out.println("Acima do peso");
 	}
 }
